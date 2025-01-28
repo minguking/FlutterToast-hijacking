@@ -307,7 +307,7 @@ class FToast {
         return Positioned.fill(child: child);
       case ToastGravity.BOTTOM:
       default:
-        return Positioned(bottom: 200.0, left: 24.0, right: 24.0, child: child);
+        return Positioned(bottom: 20.0, left: 24.0, right: 24.0, child: child);
     }
   }
 }
